@@ -12,11 +12,20 @@ public class Magic {
 // ----------------------------------------------
 // Behavior is below this line
 
+// Zero parameter Constructor
   Magic() {
     cardName = "No card given";
     setName = "No set given";
     manaCost = "No mana cost given";
     type = "No type given";
+   }
+
+// Common case constructor
+  Magic(String thisCardName, String thisSetName, String thisManaCost, String thisType) {
+    cardName = thisCardName;
+    setName = thisSetName;
+    manaCost = thisManaCost;
+    type = thisType;
    }
 
   public String toString() {
