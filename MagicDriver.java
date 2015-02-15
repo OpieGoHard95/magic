@@ -8,5 +8,7 @@ public class MagicDriver {
 	System.out.println(giantGrowth.toString());
 	Magic frostTitan = new Magic("Frost Titan", "Magic 2012");
 	System.out.println(frostTitan.toString());
+	Magic battleMastery = new Magic("Battle Mastery", "Lorwyn", "2W");
+	System.out.println(battleMastery.toString());
     }
 }
