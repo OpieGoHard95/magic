@@ -34,6 +34,13 @@ public class Magic {
      cardName = thisCardName;
     }
 
+// Two parameter constructor
+  Magic(String thisCardName, String thisSetName) {
+    this();
+    cardName = thisCardName;
+    setName = thisSetName;
+   }
+
   public String toString() {
     String output = "";
     output = "Card name: " + cardName + ". Set name: " + setName + ". Mana Cost: " + manaCost + ". Type: " + type;
