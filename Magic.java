@@ -20,7 +20,7 @@ public class Magic {
     type = "No type given";
    }
 
-// Common case constructor
+// Common case constructor which has all four items
   Magic(String thisCardName, String thisSetName, String thisManaCost, String thisType) {
     cardName = thisCardName;
     setName = thisSetName;
@@ -28,9 +28,15 @@ public class Magic {
     type = thisType;
    }
 
+// One parameter constructor
+  Magic(String thisCardName) {
+     this();
+     cardName = thisCardName;
+    }
+
   public String toString() {
     String output = "";
-    output = "Card name: " + cardName + "| Set name: " + setName + "| Mana Cost: " + manaCost + "| Type: " + type;
+    output = "Card name: " + cardName + ". Set name: " + setName + ". Mana Cost: " + manaCost + ". Type: " + type;
     return output;
    }
 }
