@@ -6,5 +6,7 @@ public class MagicDriver {
 	System.out.println(vexingDevil.toString());
 	Magic giantGrowth = new Magic("Giant Growth");
 	System.out.println(giantGrowth.toString());
+	Magic frostTitan = new Magic("Frost Titan", "Magic 2012");
+	System.out.println(frostTitan.toString());
     }
 }
