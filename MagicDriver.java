@@ -4,5 +4,7 @@ public class MagicDriver {
 	System.out.println(card.toString());
 	Magic vexingDevil = new Magic("Vexing Devil", "Avacyn Restored", "R", "Creature");
 	System.out.println(vexingDevil.toString());
+	Magic giantGrowth = new Magic("Giant Growth");
+	System.out.println(giantGrowth.toString());
     }
 }
