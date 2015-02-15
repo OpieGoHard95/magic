@@ -41,6 +41,14 @@ public class Magic {
     setName = thisSetName;
    }
 
+// Three parameter constructor
+  Magic(String thisCardName, String thisSetName, String thisManaCost) {
+    this();
+    cardName = thisCardName;
+    setName = thisSetName;
+    manaCost = thisManaCost;
+   }
+
   public String toString() {
     String output = "";
     output = "Card name: " + cardName + ". Set name: " + setName + ". Mana Cost: " + manaCost + ". Type: " + type;
